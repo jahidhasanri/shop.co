@@ -3,11 +3,11 @@ import { FaTwitter, FaFacebookF, FaInstagram, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F0F0F0] text-gray-700 px-6 py-10">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+    <footer className="bg-[#F0F0F0] text-gray-700 px-6 py-10 z-0 relative">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pt-[130px] z-0">
         {/* Brand */}
         <div className="col-span-1">
-          <h2 className="text-2xl font-bold mb-4">SHOP.CO</h2>
+          <h2 className="text-2xl font-bold mb-4 ">SHOP.CO</h2>
           <p className="text-sm mb-4">
             We have clothes that suit your style and which you're proud to wear. From women to men.
           </p>
